@@ -17,12 +17,12 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         $user = new User;
-        $user->firstname = 'Shadrack';
-        $user->lastname = 'Bodje';
-        $user->birthday = '1999-01-13';
-        $user->email = 'shadrackemmanuel.bodje@ynov.com';
-        $user->password = bcrypt('Ynov12345');
-        $user->solde = '1500';
+        $user->firstname = 'Killian';
+        $user->lastname = 'Grincourt';
+        $user->birthday = '2001-08-32';
+        $user->email = 'killian.grincourt@ynov.com';
+        $user->password = bcrypt('azerty');
+        $user->solde = '1600';
         $user->save(); //pour le sauvegarder dans la base de données
         
     }
