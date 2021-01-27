@@ -20,7 +20,7 @@ class CreateProductsTable extends Migration
             $table->text('description');//la description du produit
             $table->integer('quantity');//La quantité du produit dans notre base de donnée
             $table->integer('price');//Le price en € du produit
-            $table->integer('discount');//Peut-etre une remise produit
+            $table->integer('discount');//Pour unr remise une remise produit
             $table->text('tag');//La marque du produit
             $table->integer('category_id')->unsigned();//La foreign key, pour la jonction entre les tables prdiot et categories produit
             $table->foreign('category_id')
